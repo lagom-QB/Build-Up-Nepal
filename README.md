@@ -1,3 +1,5 @@
+# Build up Nepal
+
 The goal of this project is to analyze the data provided by **Build Up Nepal** to enable them communicate their impact to *stakeholders, communities and the government* in Nepal.
 The visualization would also serve to start the conversation about safe, hygenic housing in rural areas and the importance of defining the last mile infrastructure in development planning.
 
