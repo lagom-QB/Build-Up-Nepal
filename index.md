@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+The goal of this project is to analyze the data provided by **Build Up Nepal** to enable them communicate their impact to *stakeholders, communities and the government* in Nepal.
+The visualization would also serve to start the conversation about safe, hygenic housing in rural areas and the importance of defining the last mile infrastructure in development planning.
 
-You can use the [editor on GitHub](https://github.com/lagom-QB/Build-Up-Nepal/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The important metrics they would like to highlight include:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Jobs created
+- Houses built
+- Number of enterprises established and sustaining long-term
+- Tonnes of CO2 emissions saved
 
-### Markdown
+## Progress
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lagom-QB/Build-Up-Nepal/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- [X] Basic exploration using LibreOffice
+- [X] Identified the questions I would like to answer based on the initial exploration:
+  - Tonnes of CO2 emissions saved
+  - Number of jobs created in each region
+  - How long on average do projects last?
+  - Is there a relationship between job and gender?
+  - In what region are projects most abandonned? Completed?
+- [ ] Start exploring the questions.
+  - [X] Tonnes of CO2 saved
+    Created a pivot table for district, province and CO2 emission.
+    Found out:
+    - The projects were able to span over **293** districts and **44854.24** Tonnes of CO2 saved.
+    - Gorkha district in Gandaki Province had **18** projects and saved **5570.8974** tonnes of CO2.
+    - | Province Name | Count of Projects in Province | CO2 saved (Tonnes) |
+      | ---- | ---- | ---- |
+      | Bagmati Province| 120| 22403.517|
+      | Gandaki Province| 48 | 10599.1824 |
+      | Karnali Province| 10 | 1724.07  |
+      | Lumbini Province| 35 | 3139.383 |
+      | Province No. 1  | 26 | 2575.5   |
+      | Province No. 2  | 14 | 1299.264 |
+      | Sudurpashchim Province|  40 |  3113.325    |
