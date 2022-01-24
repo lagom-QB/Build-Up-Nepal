@@ -19,6 +19,7 @@ The important metrics they would like to highlight include:
   3. How long on average do projects last?
   4. Is there a relationship between job and gender?
   5. In what region are projects most abandonned? Completed?
+- [ ] Make 
 - [ ] Start exploring the questions.
     ### Tonnes of CO2 saved  
     1. Create a pivot table for district, province and CO2 emission.
@@ -34,7 +35,7 @@ The important metrics they would like to highlight include:
           | Province No. 1  | 26 | 2575.5   |
           | Province No. 2  | 14 | 1299.264 |
           | Sudurpashchim Province|  40 |  3113.325    |
-    2. Visualize
+    2. Visualize  
     ### Jobs created
     1. Create a pivot table for Districts, total jobs, male jobs and female jobs.
         Findings:
@@ -49,8 +50,10 @@ The important metrics they would like to highlight include:
           | Province No. 1  | 242|105|17|364|
           | Province No. 2  | 132|96|19|247|
           | Sudurpashchim Province|  425|213|30|668|
-    2. Visualize
-- [X] Interesting findings
+    2. Visualize  
+    ### Duration of Projects
+    1.   
+- [ ] Interesting findings
     1. The province with the highest number of jobs didn't save the highest amount of CO2 as I thought would happen.
 
 ## Tools used
