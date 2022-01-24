@@ -19,7 +19,9 @@ The important metrics they would like to highlight include:
   3. How long on average do projects last?
   4. Is there a relationship between job and gender?
   5. In what region are projects most abandonned? Completed?
-- [ ] Make 
+- [X] Examine relationships between variables by making large plots to easily spot trends.
+![pairplot](images/pairplots.png)
+![correlation](images/corr.png)
 - [ ] Start exploring the questions.
     ### Tonnes of CO2 saved  
     1. Create a pivot table for district, province and CO2 emission.
