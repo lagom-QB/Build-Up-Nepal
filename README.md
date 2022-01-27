@@ -20,7 +20,7 @@ The important metrics they would like to highlight include:
   4. Is there a relationship between job and gender?
   5. In what region are projects most abandonned? Completed?
 - [X] Examine relationships between variables by making large plots to easily spot trends.
-![pairplot](images/pairplots.png)
+![pairplot](images/pairplots.png)  
 ![correlation](images/corr.png)
 - [ ] Start exploring the questions.
     ### Tonnes of CO2 saved  
@@ -37,7 +37,8 @@ The important metrics they would like to highlight include:
           | Province No. 1  | 26 | 2575.5   |
           | Province No. 2  | 14 | 1299.264 |
           | Sudurpashchim Province|  40 |  3113.325    |
-    2. Visualize  
+    2. Visualize 
+    ![co2](images/co2.png)
     ### Jobs created
     1. Create a pivot table for Districts, total jobs, male jobs and female jobs.
         Findings:
@@ -53,6 +54,7 @@ The important metrics they would like to highlight include:
           | Province No. 2  | 132|96|19|247|
           | Sudurpashchim Province|  425|213|30|668|
     2. Visualize  
+    ![jobs](images/jobs.png)
     ### Duration of Projects
     1.   
 - [ ] Interesting findings
@@ -62,3 +64,4 @@ The important metrics they would like to highlight include:
 1. LibreOffice
 2. Pen/Paper
 3. Git
+4. RawGraphs.io
