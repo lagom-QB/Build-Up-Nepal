@@ -22,9 +22,9 @@ The important metrics they would like to highlight include:
   5. In what region are projects most abandonned? Completed?
 - [X] Examine relationships between variables by making large plots to easily spot trends.
   ![pairplot](images/pairplots.png)![correlation](images/corr.png)
-- [ ] Start exploring the questions.
+- [X] Start exploring the questions.
 
-  ### Tonnes of CO2 saved
+  ### How many Tonnes of CO2 were saved?
 
 
   1. Create a pivot table for district, province and CO2 emission.
@@ -43,7 +43,7 @@ The important metrics they would like to highlight include:
   2. Visualize
      ![co2](images/co2.png)
 
-  ### Jobs created
+  ### How many jobs were created?
 
   1. Create a pivot table for Districts, total jobs, male jobs and female jobs.
      Findings:
@@ -61,7 +61,7 @@ The important metrics they would like to highlight include:
   2. Visualize
      ![jobs](images/jobs.png)
 
-  ### Duration of Projects
+  ### Whats the average duration of Projects?
 
   1. Make a summary table of the average duration of projects in each province.
      - Found out the total average duration of projects is *176* months.
@@ -80,23 +80,22 @@ The important metrics they would like to highlight include:
   2. Visualize
      ![jobs](images/duration.png)
 
-  ### Relationship between jobs and gender?
+  ### Is there a relationship between jobs and gender?
 
   1. Encode gender to binary. Make a summary table of total number of jobs and gender. A number higher than 0 shows there were female jobs in the province.
+    - Found out *Province No. 2* and *Sudurpashchim Province* didn't hire female workers.
+    - | Province Name | Total Jobs | Gender-BINARY |
+      | ---- | ---- | ---- |
+      | Bagmati Province |	3532 |	2|
+      | Gandaki Province |	1452 |	4|
+      | Karnali Province |	454	 |1|
+      | Lumbini Province |	1099 |	4|
+      | Province No. 1 |	612 |	2 |
+      | Province No. 2 |	381 |	0 |
+      | Sudurpashchim Province | 1121 | 0|
+    - There is a positive correlation of *.10* between Total jobs and Gender which i deem statistically significant.
 
-  - Found out *Province No. 2* and *Sudurpashchim Province* didn't hire female workers.
-  - | Province Name | Total Jobs | Gender-BINARY |
-    | ---- | ---- | ---- |
-    | Bagmati Province |	3532 |	2|
-    | Gandaki Province |	1452 |	4|
-    | Karnali Province |	454	 |1|
-    | Lumbini Province |	1099 |	4|
-    | Province No. 1 |	612 |	2 |
-    | Province No. 2 |	381 |	0 |
-    | Sudurpashchim Province | 1121 | 0|
-  - There is a positive correlation of *.10* between Total jobs and Gender which i deem statistically significant.
-
-  ### Projects Status
+  ### What are the Projects Status?
   1. Make a pivot table of Province and count of projects, setting status as a filter.
     - *293* projects in total,  
     - *16* closed or sold projects
@@ -104,7 +103,7 @@ The important metrics they would like to highlight include:
     - *6* recently started projects
     - *189* struggling projects
 
-- [ ] Interesting findings
+- [X] Interesting findings
 
   1. ![jobs](images/built.png)
   2. The province with the highest number of jobs didn't save the highest amount of CO2 as I thought would happen.
@@ -112,7 +111,6 @@ The important metrics they would like to highlight include:
   4. Bagmati Province built *2910* houses and *38* schools over *35011* months.
 
 ## Tools used
-
 1. LibreOffice
 2. Pen/Paper
 3. Git
