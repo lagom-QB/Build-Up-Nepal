@@ -107,7 +107,7 @@ The important metrics they would like to highlight include:
 
   1. ![jobs](images/built.png)
   2. The province with the highest number of jobs didn't save the highest amount of CO2 as I thought would happen.
-  3. Found out a total od *124* schools were built, *6018* houses were built over a duration of **51574** months.
+  3. Found out a total of *124* schools were built, *6018* houses were built over a duration of **51574** months.
   4. Bagmati Province built *2910* houses and *38* schools over *35011* months.
 
 ## Tools used
@@ -115,4 +115,4 @@ The important metrics they would like to highlight include:
 2. Pen/Paper
 3. Git
 4. RawGraphs.io
-5. Tableau
+5. 👉 [Tableau](https://public.tableau.com/views/BuildUpNepal_16438609135740/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
